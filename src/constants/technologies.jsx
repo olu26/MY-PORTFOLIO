@@ -16,7 +16,7 @@ import {
   SiFigma,
   
 } from "react-icons/si";
-
+import { SiMysql } from "react-icons/si";
 // Array of technologies with names, icons, specific colors, and size
 const technologies = [
   {
@@ -54,6 +54,11 @@ const technologies = [
     name: "MongoDB",
     icon: <SiMongodb style={{ color: "#47A248", fontSize: "2rem" }} />,
     description: "NoSQL database",
+  },
+  {
+    name: "SQL",
+    icon: <SiMysql  style={{ color: "#FF0000", fontSize: "2rem" }} />,
+    description: "SQL database",
   },
   {
     name: "java",

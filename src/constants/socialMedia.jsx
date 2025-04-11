@@ -1,11 +1,12 @@
 import { MdOutlineWhatsapp } from "react-icons/md";
-import { CiFacebook, CiLinkedin } from "react-icons/ci";
+import { CiLinkedin } from "react-icons/ci";
 import { IoLogoGithub } from "react-icons/io";
+import { FaInstagram } from "react-icons/fa6";
 const socialMediaLinks = [
   {
-    name: "Facebook",
-    url: "https://www.facebook.com/share/aRu6DZwh56w18RxR/",
-    icon: <CiFacebook size={24} />,
+    name: "Instagram",
+    url: "https://www.instagram.com/journey_with_olu/",
+    icon: <FaInstagram size={24}/>,
   },
   {
     name: "whatsapp",
@@ -14,7 +15,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    url: "www.linkedin.com/in/oluchukwu-ordiah-347861332",
+    url: "https://www.linkedin.com/in/oluchukwu-ordiah-347861332/",
     icon: <CiLinkedin size={24} />,
   },
   {
