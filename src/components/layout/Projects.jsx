@@ -4,6 +4,7 @@ import Title from "../ui/Title";
 import projectsData from "../../constants/projectsData";
 import CategoryDropdown from "../ui/CategoryDropdown ";
 import { IoEyeOutline, IoCodeSlashOutline } from "react-icons/io5";
+
 const categories = ["All", "Web design", "Applications", "Web development"];
 
 function Projects() {
@@ -34,6 +35,7 @@ function Projects() {
           </button>
         ))}
       </nav>
+
       <CategoryDropdown
         setActiveCategory={setActiveCategory}
         activeCategory={activeCategory}
@@ -48,23 +50,29 @@ function Projects() {
             className="bg-[#ffffff0c] cursor-pointer group p-4 rounded-lg transition-transform transform hover:scale-105 hover:shadow-lg"
           >
             <div className="relative">
-              <div className=" group-hover:opacity-100   flex gap-2 justify-center items-center rounded-lg opacity-0 absolute inset-0 bg-[#0303031010] z-20">
-                <div
-                  title="View Code"
-                  className={`rounded-md ${
-                    project.code !== "" ? "" : "hidden"
-                  } w-10 h-10 flex justify-center items-center p-1  hover:text-orange-600 bg-sideBg-950`}
-                >
-                  <IoCodeSlashOutline size={22} />
-                </div>
-                <div
-                  title="View Project"
-                  className={`rounded-md ${
-                    project.demo !== "" ? "" : "hidden"
-                  }  w-10 h-10 flex justify-center items-center p-1  hover:text-orange-600 bg-sideBg-950`}
-                >
-                  <IoEyeOutline size={22} />
-                </div>
+              <div className="group-hover:opacity-100 flex gap-2 justify-center items-center rounded-lg opacity-0 absolute inset-0 bg-[#0303031010] z-20">
+                {project.code && (
+                  <a
+                    href={project.code}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="View Code"
+                    className="rounded-md w-10 h-10 flex justify-center items-center p-1 hover:text-orange-600 bg-sideBg-950"
+                  >
+                    <IoCodeSlashOutline size={22} />
+                  </a>
+                )}
+                {project.demo && (
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="View Project"
+                    className="rounded-md w-10 h-10 flex justify-center items-center p-1 hover:text-orange-600 bg-sideBg-950"
+                  >
+                    <IoEyeOutline size={22} />
+                  </a>
+                )}
               </div>
               <img
                 src={project.imgSrc}

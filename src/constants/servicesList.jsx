@@ -1,5 +1,5 @@
-import { MdWeb, MdPhotoCamera } from "react-icons/md";
-import { FaMobileAlt, FaLaptopCode } from "react-icons/fa";
+import { MdWeb } from "react-icons/md";
+import { FaLaptopCode } from "react-icons/fa";
 
 const services = [
   {
@@ -15,15 +15,9 @@ const services = [
     description: "High-quality development of sites at the professional level.",
     color: "text-white ",
   },
+ 
   {
-    Icon: FaMobileAlt,
-    title: "Mobile Apps",
-    description:
-      "Professional development of applications for iOS and Android.",
-    color: "text-orange-600 ",
-  },
-  {
-    Icon: MdPhotoCamera,
+    Icon: FaLaptopCode,
     title: "Desktop Apps",
     description: "I make high-quality desktop apps  at a professional level.",
     color: "text-violet-600 ",

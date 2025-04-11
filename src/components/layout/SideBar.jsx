@@ -1,6 +1,6 @@
 import React from "react";
 import socialMediaLinks from "../../constants/socialMedia";
-import avatar from "../../assets/avatar.png";
+import avatar from "../../assets/mr.jpg";
 import ContactInfo from "../ui/ContactInfo";
 import { MdMenu } from "react-icons/md";
 

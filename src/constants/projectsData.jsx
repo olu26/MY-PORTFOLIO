@@ -3,7 +3,7 @@ import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
-import project6 from "../assets/project6.png";
+import project6 from "../assets/sudo.png";
 import project7 from "../assets/project7.png";
 import project8 from "../assets/project8.png";
 import project9 from "../assets/project9.png";
@@ -20,12 +20,12 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Anone",
+    title: "BARBING SALON",
     category: "Web development",
     imgSrc: project2,
     altText: "anone web app screenshot",
-    code: "https://github.com/AmineCoder30/Anon-eco",
-    demo: "https://anoneco.netlify.app/",
+    code: "https://github.com/olu26/olu-codar-project",
+    demo: "https://olu-codar-project.vercel.app/",
   },
   {
     id: 3,
@@ -56,12 +56,12 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "avvocati",
+    title: "SUDO WALLET",
     category: "Web design",
     imgSrc: project6,
-    altText: "avvocati web dev screenshot",
-    code: "https://github.com/AmineCoder30/avvocati-template",
-    demo: "https://aminecoder30.github.io/avvocati-template/",
+    altText: "SUDO WALLET",
+    code: "https://www.figma.com/proto/UmIkRYaYZb7MLHjsxVQHDr/-UD0-WALLET?node-id=42-4963&starting-point-node-id=42%3A4963",
+    demo: "https://www.figma.com/proto/UmIkRYaYZb7MLHjsxVQHDr/-UD0-WALLET?node-id=42-4963&starting-point-node-id=42%3A4963",
   },
   {
     id: 7,

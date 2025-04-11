@@ -19,7 +19,7 @@ const socialMediaLinks = [
   },
   {
     name: "GitHub",
-    url: "https://github.com/AmineCoder30",
+    url: "https://github.com/olu26",
     icon: <IoLogoGithub size={24} />,
   },
 ];

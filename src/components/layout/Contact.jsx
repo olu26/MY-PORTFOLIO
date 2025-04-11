@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import  { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Title from "../ui/Title";
 function Contact() {
@@ -81,23 +81,7 @@ function Contact() {
           </div>
         </div>
 
-        {/* Budget Number Input */}
-        <div>
-          <label htmlFor="budget" className="block text-gray-400 text-sm mb-2">
-            Budget (USD)
-          </label>
-          <input
-            type="number"
-            id="budget"
-            name="budget"
-            onChange={handleChange}
-            value={formInfo.budget}
-            placeholder="Enter your budget"
-            min="0"
-            step="100"
-            className="w-full p-3 border border-gray-200 bg-transparent text-white rounded focus:outline-none"
-          />
-        </div>
+        
 
         {/* Message Field */}
         <div>

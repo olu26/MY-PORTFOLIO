@@ -5,13 +5,13 @@ import {
   FaReact,
   FaNodeJs,
   FaJava,
-  FaPython,
+  
   FaGitAlt,
 } from "react-icons/fa";
 import {
   SiJavascript,
   SiTailwindcss,
-  SiExpress,
+ 
   SiMongodb,
   SiFigma,
   
@@ -49,11 +49,7 @@ const technologies = [
     icon: <FaNodeJs style={{ color: "#339933", fontSize: "2rem" }} />,
     description: "runtime environment",
   },
-  {
-    name: "ExpressJS",
-    icon: <SiExpress style={{ color: "#000000", fontSize: "2rem" }} />,
-    description: "web framework",
-  },
+  
   {
     name: "MongoDB",
     icon: <SiMongodb style={{ color: "#47A248", fontSize: "2rem" }} />,
@@ -69,11 +65,7 @@ const technologies = [
     icon: <SiFigma style={{ color: "#F24E1E", fontSize: "2rem" }} />,
     description: "design tool",
   },
-  {
-    name: "Python",
-    icon: <FaPython style={{ color: "#3776AB", fontSize: "2rem" }} />,
-    description: "general-purpose language",
-  },
+  
   {
     name: "Git",
     icon: <FaGitAlt style={{ color: "#764ABC", fontSize: "2rem" }} />,
