@@ -5,7 +5,7 @@ import projectsData from "../../constants/projectsData";
 import CategoryDropdown from "../ui/CategoryDropdown ";
 import { IoEyeOutline, IoCodeSlashOutline } from "react-icons/io5";
 
-const categories = ["All", "Web design", "Applications", "Web development"];
+const categories = ["All", "Web design", "Desktop Apps", "Web development"];
 
 function Projects() {
   const [activeCategory, setActiveCategory] = React.useState("All");

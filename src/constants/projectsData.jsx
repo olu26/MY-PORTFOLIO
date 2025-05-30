@@ -1,10 +1,10 @@
 import project1 from "../assets/api.jpeg";
-import project2 from "../assets/barber.png";
-import project3 from "../assets/project3.png";
+import project2 from "../assets/ecom.png";
+import project3 from "../assets/app.png";
 import project5 from "../assets/cyrus.jpeg";
 import project4 from "../assets/gpa.jpeg";
 import project6 from "../assets/sudo.png";
-import project7 from "../assets/angelo.jpeg";
+import project7 from "../assets/project2.png";
 
 const projectsData = [
   {
@@ -13,22 +13,22 @@ const projectsData = [
     category: "Web development",
     imgSrc: project1,
     altText: "api screenshot",
-    code: "https://github.com/olu26/vegi-api-",
-    demo: "https://vegi-api-redo.onrender.com/",
+    code: "https://github.com/olu26/E-commerce-BACKEND",
+    demo: "https://e-commerce-backend-37ej.onrender.com",
   },
   {
     id: 2,
-    title: "BARBING SALON",
+    title: "E-commerce",
     category: "Web development",
     imgSrc: project2,
-    altText: "barbing salon web app screenshot",
-    code: "https://github.com/olu26/olu-codar-project",
-    demo: "https://olu-codar-project.vercel.app/",
+    altText: "E-commerce web app screenshot",
+    code: "https://github.com/olu26/E-commerce-FRONTEND",
+    demo: "https://e-commerce-frontend-sooty-sigma.vercel.app/",
   },
   
   {
     id: 3,
-    title: "GPA Calulator",
+    title: "Offline GPA Calulator",
     category: "Web development",
     imgSrc: project4,
     altText: "GPA Calulator application screenshot",
@@ -55,12 +55,21 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "THE ANGELO",
+    title: "ADMIN PANEL",
     category: "Web development",
     imgSrc: project7,
-    altText: "THE ANGELO application screenshot",
-    code: "https://github.com/olu26/angelosite",
-    demo: "https://theangelo.vercel.app/",
+    altText: "admin panel screenshot",
+    code: "https://github.com/olu26/E-commerce-ADMIN",
+    demo: "https://e-commerce-admin-alpha-cyan.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "cafe inventory app",
+    category: "Desktop Apps",
+    imgSrc: project3,
+    altText: "cafe inventory app screenshot",
+    code: "https://github.com/olu26/cafe-shop-inventory-app",
+    
   },
   
   
