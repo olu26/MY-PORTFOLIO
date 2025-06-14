@@ -22,7 +22,7 @@ function SideBar() {
             </div>
             <div>
               <h2 className="text-2xl lg:mt-3 mb-3 font-bold text-white">
-                Oluchukw Ordiah
+                Oluchukwu Ordiah
               </h2>
               <p className=" bg-[#dfdfdf13] lg:bg-transparent font-light   px-2  py-1  rounded-md text-white   ">
                 Full Stack Developer
