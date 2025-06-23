@@ -14,10 +14,10 @@ function About() {
       <div className="flex gap-5 md:gap-10 mt-16">
         <div className="text-white">
           <h3 className="text-4xl md:text-5xl lg:text-7xl  font-extrabold ">
-            8
+            +1
           </h3>
           <p className="text-gray-500 uppercase text-sm sm:text-lg break-words">
-            months of <br /> Experience
+            years of <br /> Experience
           </p>
         </div>
         <div className="text-white">
